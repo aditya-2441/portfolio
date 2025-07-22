@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Singh | Portfolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://unpkg.com/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-[#0f172a] text-white font-['Inter']">
+
+  <div id="main" data-scroll-container>
+
+    <section class="h-screen flex flex-col justify-center items-center text-center" data-scroll-section>
+      <h1 class="text-5xl md:text-7xl font-bold">Aditya Singh</h1>
+      <p class="text-xl md:text-2xl mt-4 animate-fadeIn">Frontend Developer • Tech Enthusiast</p>
+      <a href="#projects" class="mt-6 text-blue-400 hover:underline">View Projects ↓</a>
+    </section>
+
+    <section class="p-10 md:p-20" id="about" data-scroll-section>
+      <h2 class="text-4xl font-semibold mb-6">About Me</h2>
+      <p class="text-lg max-w-3xl">I am a passionate frontend developer with experience in creating stunning, interactive, and responsive websites using modern web technologies. I love building beautiful user interfaces and seamless experiences.</p>
+    </section>
+
+    <section class="p-10 md:p-20 bg-[#1e293b]" id="projects" data-scroll-section>
+      <h2 class="text-4xl font-semibold mb-10">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-[#0f172a] p-6 rounded-xl shadow-xl hover:scale-105 transition-all">
+          <h3 class="text-2xl font-bold mb-2">NextGen Biomaterials Lab</h3>
+          <p class="text-sm text-gray-300 mb-4">A scientific research showcase site using animations and advanced layout.</p>
+          <a href="https://github.com/aditya-2441/nextgen-biomaterials-lab" class="text-blue-400">GitHub ↗</a>
+        </div>
+        <div class="bg-[#0f172a] p-6 rounded-xl shadow-xl hover:scale-105 transition-all">
+          <h3 class="text-2xl font-bold mb-2">CatPhotoApp</h3>
+          <p class="text-sm text-gray-300 mb-4">Interactive, animated cat website with responsive design and fun features.</p>
+          <a href="https://github.com/aditya-2441/CatPhotoApp" class="text-blue-400">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-10 md:p-20" id="contact" data-scroll-section>
+      <h2 class="text-4xl font-semibold mb-6">Contact</h2>
+      <p class="mb-4">📧 yt24541@gmail.com</p>
+      <div class="flex space-x-4">
+        <a href="https://linkedin.com/in/aditya-singh-" target="_blank" class="hover:scale-110 transition">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" class="w-6 h-6 invert" />
+        </a>
+        <a href="mailto:yt24541@gmail.com" class="hover:scale-110 transition">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Gmail" class="w-6 h-6 invert" />
+        </a>
+      </div>
+    </section>
+
+    <footer class="text-center py-10 text-sm text-gray-400" data-scroll-section>
+      © 2025 Aditya Singh. All rights reserved.
+    </footer>
+
+  </div>
+
+  <script src="https://unpkg.com/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
