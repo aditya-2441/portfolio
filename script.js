@@ -53,3 +53,12 @@ hoverElements.forEach(el => {
 if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
   document.querySelector('.custom-cursor').style.display = 'none';
 }
+// Animate project cards on hover using GSAP
+document.querySelectorAll('.project-card').forEach(card => {
+  card.addEventListener('mouseenter', () => {
+    gsap.to(card, { scale: 1.05, duration: 0.3, ease: "power2.out" });
+  });
+  card.addEventListener('mouseleave', () => {
+    gsap.to(card, { scale: 1, duration: 0.3, ease: "power2.out" });
+  });
+});
