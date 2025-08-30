@@ -32,3 +32,21 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+// Custom Cursor Script
+const cursor = document.querySelector('.custom-cursor');
+
+document.addEventListener('mousemove', (e) => {
+  cursor.style.top = `${e.clientY}px`;
+  cursor.style.left = `${e.clientX}px`;
+});
+
+// Hover effect on links and buttons
+const hoverElements = document.querySelectorAll('a, button');
+hoverElements.forEach(el => {
+  el.addEventListener('mouseenter', () => {
+    cursor.classList.add('hovered');
+  });
+  el.addEventListener('mouseleave', () => {
+    cursor.classList.remove('hovered');
+  });
+});
