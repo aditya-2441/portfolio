@@ -50,3 +50,6 @@ hoverElements.forEach(el => {
     cursor.classList.remove('hovered');
   });
 });
+if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
+  document.querySelector('.custom-cursor').style.display = 'none';
+}

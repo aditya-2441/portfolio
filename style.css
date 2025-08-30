@@ -149,3 +149,9 @@ footer {
   height: 40px;
   background: rgba(0, 123, 255, 0.2);
 }
+/* Hide cursor on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .custom-cursor {
+    display: none;
+  }
+}
