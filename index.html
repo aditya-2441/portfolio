@@ -7,32 +7,62 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
+    <h1 class="logo">Aditya Singh | PORTFOLIO</h1>
     <nav>
-      <h1 class="logo">Aditya Singh | PORTFOLIO</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
+  <!-- Home -->
   <section id="home">
     <div class="intro">
       <h2>Hi, I'm <span>Aditya</span></h2>
-      <p>B.Tech CSE Student | Developer | Tech Enthusiast | Student Coordinator UU-CSC Club</p>
+      <p>B.Tech CSE Student | Developer | Google Campus Ambassador | Student Coordinator UU-CSC Club</p>
       <a href="#projects" class="btn">View Projects</a>
     </div>
     <div id="vanta-bg"></div>
   </section>
 
+  <!-- About -->
   <section id="about">
     <h2>About Me</h2>
-    <p>I am a passionate developer skilled in Kotlin, Java, Python,Full Stack and C. Currently pursuing B.Tech in CSE at Uttaranchal University.</p>
+    <p>I am a passionate developer skilled in Kotlin, Java, Python, Full Stack, and C. Currently pursuing B.Tech in CSE at Uttaranchal University.</p>
   </section>
 
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><i class="fab fa-java"></i><p>Java</p></div>
+      <div class="skill-card">
+  <i class="devicon-kotlin-plain colored"></i>
+  <p>Kotlin</p>
+</div>
+      <div class="skill-card"><i class="fab fa-python"></i><p>Python</p></div>
+      <div class="skill-card"><i class="fab fa-html5"></i><p>HTML & CSS</p></div>
+      <div class="skill-card"><i class="fab fa-js"></i><p>JavaScript</p></div>
+      <div class="skill-card"><i class="fab fa-react"></i><p>React</p></div>
+      <div class="skill-card"><i class="fas fa-database"></i><p>Databases</p></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
   <section id="projects">
     <h2>Projects</h2>
     <div class="projects-grid">
-      <!-- Project 1 -->
       <div class="project-card">
         <h3>NextGen Biomaterials Lab</h3>
         <p>A research showcase website for biomaterials lab.</p>
@@ -41,7 +71,6 @@
           <a href="https://github.com/aditya-2441/nextgen-biomaterials-lab" target="_blank" class="btn">GitHub</a>
         </div>
       </div>
-      <!-- Project 2 -->
       <div class="project-card">
         <h3>Cat Photo App</h3>
         <p>A fun responsive app with interactive cat content.</p>
@@ -50,7 +79,6 @@
           <a href="https://github.com/aditya-2441/CatPhotoApp" target="_blank" class="btn">GitHub</a>
         </div>
       </div>
-      <!-- Project 3 -->
       <div class="project-card">
         <h3>Dice Roller App</h3>
         <p>Kotlin app that simulates dice rolling.</p>
@@ -59,7 +87,6 @@
           <a href="https://github.com/aditya-2441/DiceRoller" target="_blank" class="btn">GitHub</a>
         </div>
       </div>
-      <!-- Project 4 -->
       <div class="project-card">
         <h3>Birthday Card App</h3>
         <p>Kotlin app to create custom birthday cards.</p>
@@ -71,27 +98,52 @@
     </div>
   </section>
 
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Experience & Achievements</h2>
+    <ul class="timeline">
+      <li><h3>Google Campus Ambassador</h3><p>Organized events & tech sessions at campus.</p></li>
+      <li><h3>Smart India Hackathon 2024</h3><p>Selected for medical robot project.</p></li>
+      <li><h3>UU-CSC Student Coordinator</h3><p>Leading workshops & managing tech community.</p></li>
+    </ul>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="Aditya_Singh_Resume.pdf" class="btn" target="_blank">Download Resume</a>
+  </section>
+
+  <!-- Stats -->
+  <section id="stats">
+    <h2>Quick Facts</h2>
+    <div class="stats-grid">
+      <div><h3 id="stat1">0</h3><p>Projects Completed</p></div>
+      <div><h3 id="stat2">0</h3><p>Hackathons Attended</p></div>
+      <div><h3 id="stat3">0</h3><p>Leadership Roles</p></div>
+      <div><h3 id="stat4">0</h3><p>Hours of Coding</p></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
   <section id="contact">
     <h2>Contact Me</h2>
     <p>Email: yt24541@gmail.com</p>
-    <h2>Connect With Me</h2>
-  <p>Check out my work or connect with me on these platforms:</p>  
-<div class="social-links">
-  <a href="https://github.com/aditya-2441" target="_blank" class="social-icon">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="https://www.linkedin.com/in/aditya-singh-748253237/" target="_blank" class="social-icon">
-    <i class="fab fa-linkedin"></i>
-  </a>
-</div>
+    <div class="social-links">
+      <a href="https://github.com/aditya-2441" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/aditya-singh-748253237/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Aditya Singh. All rights reserved.</p>
   </footer>
-  
+
+  <!-- Custom Cursor -->
   <div class="custom-cursor"></div>
 
+  <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
