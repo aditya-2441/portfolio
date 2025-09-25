@@ -79,3 +79,6 @@ const navLinks = document.getElementById('nav-links');
 hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('show');
 });
+if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
+  document.querySelector('.custom-cursor').style.display = 'none';
+}
