@@ -1,5 +1,5 @@
 // Vanta Background
-VANTA.NET({
+VANTA.BIRDS({
   el: "#vanta-bg",
   mouseControls: true,
   touchControls: true,
@@ -7,11 +7,15 @@ VANTA.NET({
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  color: 0x0077ff,
   backgroundColor: 0xffffff,
-  points: 12.00,
-  maxDistance: 20.00,
-  spacing: 18.00
+  color1: 0x0077ff,
+  color2: 0xff6600,
+  birdSize: 1.5,
+  wingSpan: 20,
+  separation: 50,
+  alignment: 50,
+  cohesion: 20,
+  quantity: 3
 });
 
 // GSAP Animations
