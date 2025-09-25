@@ -73,3 +73,9 @@ window.addEventListener("scroll",()=>{
     animateCounter("stat4",1000,2000);
   }
 });
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
